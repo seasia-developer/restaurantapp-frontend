@@ -1,0 +1,193 @@
+.Header {
+  @media only screen and (max-width: 1400px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+
+  p,
+  ul {
+    margin-bottom: 0;
+  }
+  nav {
+    background-color: white !important;
+  }
+
+  img.imgResponsive {
+    max-height: 80px;
+  }
+
+  .headerLeft {
+    flex: 1;
+    margin-left: 2rem;
+
+    .topHeaderLeft {
+      ul {
+        a {
+          display: block;
+
+          svg {
+            height: 1.5rem;
+            width: 1.5rem;
+            cursor: pointer;
+            color: rgb(61, 61, 61);
+
+            &:hover {
+              color: var(--red-color);
+            }
+          }
+        }
+      }
+    }
+
+    .headerTopLeft {
+      margin-top: 0.7rem;
+
+      .quesCall p,
+      a {
+        font-weight: 600 !important;
+      }
+
+      .loginSignupbtn {
+        padding-top: 0.5rem;
+        a {
+          color: black;
+        }
+        a:hover {
+          color: #e70033;
+        }
+      }
+
+      img {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .wsrBgRed {
+      background-color: var(--red-color);
+
+      a {
+        &:hover {
+          color: var(--red-color) !important;
+        }
+      }
+
+      &:hover {
+        a {
+          color: var(--red-color) !important;
+          &:hover {
+            color: var(--red-color);
+          }
+        }
+      }
+    }
+
+    .wsrColorRed {
+      color: var(--red-color);
+    }
+
+    p {
+      font-weight: 500;
+    }
+
+    li svg {
+      height: 1.5rem;
+      width: 1.5rem;
+      cursor: pointer;
+      color: rgb(61, 61, 61);
+
+      &:hover {
+        color: var(--red-color);
+      }
+    }
+  }
+
+  .headerBottom {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 2px solid black;
+  }
+
+  .collasibleNavDropdown {
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    width: 11rem;
+    text-align: center;
+    color: black;
+
+    &:hover {
+      background-color: var(--red-color);
+      color: white;
+    }
+  }
+
+  .dropdown-menu.show {
+    width: 11rem;
+    border-radius: 0;
+    padding: 0;
+    margin-top: -1px;
+    border-top: 2px solid var(--red-color);
+    text-align: center;
+
+    box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
+
+    .dropdown-item {
+      &:hover {
+        background-color: var(--red-color);
+        color: white;
+      }
+    }
+  }
+
+  #btnInLowHead {
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    width: 11rem;
+    padding: 0.5rem;
+
+    &:hover {
+      background-color: white;
+      color: var(--red-color);
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .headerBottom {
+      border-top: 0;
+
+      li {
+        background-color: #e3e3e3 !important;
+      }
+    }
+
+    .headerLeft {
+      display: flex;
+      justify-content: end;
+      gap: 1rem;
+      font-size: 14px;
+
+      button {
+        border: none !important;
+      }
+
+      ul {
+        display: none !important;
+      }
+
+      .headerTopLeft {
+        margin-top: 0;
+        .quesCall {
+          p span {
+            display: none;
+          }
+        }
+
+        .loginSignupbtn {
+          display: none !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+.story {
+   .storyHead {
+    font-size: 68px;
+    color: #000;
+    font-weight: 700;
+  }
+  .wsrMission {
+    color: #000;
+    background: url(../../../../assets/mission-bg.jpg);
+    background-size: cover;
+    font-weight: 700;
+    .missionLeft {
+      box-shadow: 6px 0px 3px rgba(0, 0, 0, 0.19);
+      .wsrSubHead {
+        font-size: 38px;
+        line-height: 38px;
+      }
+      .wsrMainHead {
+        h2 {
+          font-size: 75px;
+          line-height: 80px;
+          font-weight: 700;
+        }
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+    .missionRight {
+      h4 {
+        font-size: 26px;
+        line-height: 26px;
+        // padding-left: 48px;
+      }
+      h2 {
+        font-size: 39px;
+        line-height: 44px;
+        // padding-left: 48px;
+        font-weight: 700;
+      }
+      .exploadingquotes {
+        padding: 0px 31px 31px;
+        margin-bottom: 28px;
+        img {
+          width: 67px;
+          height: 43px;
+        }
+        p {
+          font-size: 26px;
+          font-weight: 500 !important;
+          text-align: center;
+        }
+        .quoteRight {
+          right: 0;
+          bottom: 0;
+          position: absolute;
+        }
+      }
+      .wsrBtnEbook {
+        border-radius: 0;
+        border: none;
+        font-size: 18px;
+        font-weight: 800;
+        padding: 8px 28px;
+      }
+    }
+  }
+  .RestaurantMain {
+    background: rgba(255, 255, 255, 0.7);
+    h4 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .RestaurantInner {
+      box-shadow: 0 0 2em -0.9em #000000;
+      padding: 55px 55px;
+      min-height: 220px;
+      .leftContent {
+        border-right: 2px solid #ddd;
+        p {
+          font-size: 16px;
+          line-height: 28px;
+          font-weight: 500;
+          padding-right: 20px;
+        }
+      }
+      .rightContent{
+        p {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 500;
+            padding-left: 20px;
+          }
+      }
+    }
+  }
+
+  .storydetails {
+    background: url(../../../../assets/story-detailsbg.png);
+    background-size: cover;
+    .icon {
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      background: #e70033;
+    }
+    .storyContent {
+      width: calc(100% - 120px);
+      h2 {
+        font-size: 31px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .today{
+    background: rgba(255,255,255,0.7);
+    .todayInner{
+        box-shadow: 0 0 2em -0.9em #000000;
+        padding: 55px 55px;
+        min-height: 220px;
+        h4, p{
+            color: #000;
+        }
+    }
+  }
+}
+
+@media (max-width: 991px){
+    .storyHead{
+        font-size: 55px !important;
+    }
+    .wsrMainHead{
+        h2{
+            font-size: 55px !important;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .storyHead{
+        font-size: 31px !important;
+    }
+    .wsrMainHead{
+        h2{
+            font-size: 35px !important;
+        }
+    }
+    .missionRight {
+        h4 {
+          font-size: 21px !important;
+        }
+        h2 {
+          font-size: 26px !important;
+        }
+        p {
+            font-size: 18px !important;
+        }
+    }
+    .leftContent {
+        border-bottom: 2px solid #ddd !important;
+        border-right: 0 !important;
+        margin-bottom: 15px !important;
+      }
+}

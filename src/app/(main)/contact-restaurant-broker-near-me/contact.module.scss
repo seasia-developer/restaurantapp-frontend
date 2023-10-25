@@ -1,0 +1,194 @@
+.mapHead {
+  background-color: #fff;
+  margin-top: 2rem;
+  path {
+    fill: #e70033;
+  }
+  .jvectormap-container {
+    background-color: #fff !important;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    line-height: 48px;
+    margin-bottom: 20px;
+    padding: 20px 0px 0px 20px;
+  }
+  .mapBackground {
+    div {
+      background: none !important;
+    }
+    svg {
+      height: 400px;
+    }
+  }
+}
+.contact {
+  padding: 0px 0px 35px;
+  margin-top: 25px;
+  .contactForm {
+    background: url(../../../assets/contact-bg.png);
+    padding: 28px;
+  }
+  .leftSide {
+    border-right: 4px solid #fff;
+    padding-right: 20px;
+    h4 {
+      font-size: 33px;
+      color: #fff;
+      font-weight: 600;
+    }
+    input {
+      margin-bottom: 15px;
+      background: rgba(255, 255, 255, 0.82);
+      font-size: 24px;
+      color: #e70033;
+      font-weight: 600;
+      height: 55px;
+      line-height: 55px;
+      padding: 0 15px;
+      border-radius: 0;
+    }
+    input::placeholder {
+      color: #e70033;
+    }
+    select {
+      margin-bottom: 15px;
+      background: rgba(255, 255, 255, 0.82);
+      font-size: 24px;
+      color: #e70033;
+      font-weight: 600;
+      height: 55px;
+      line-height: 55px;
+      padding: 0 15px;
+      border-radius: 0;
+    }
+    textarea {
+      margin-bottom: 15px;
+      background: rgba(255, 255, 255, 0.82);
+      font-size: 24px;
+      color: #e70033;
+      font-weight: 600;
+      line-height: 55px;
+      border-radius: 0;
+      padding: 0 15px;
+      width: 100%;
+      height: 89px;
+      &::placeholder {
+        color: #e70033;
+      }
+    }
+    .submitBtn {
+      button {
+        height: 55px;
+        line-height: 55px;
+        padding: 0px 48px;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        margin-top: 15px;
+        font-size: 26px;
+        background: #e70033;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-weight: 700;
+      }
+    }
+  }
+  .rightSide {
+    padding-left: 15px;
+    h4 {
+      font-size: 33px;
+      color: #fff;
+      font-weight: 600;
+    }
+    p {
+      font-size: 21px;
+      color: #fff;
+      line-height: 31px;
+      white-space: normal;
+      word-break: break-word;
+      margin-bottom: 20px;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding: 0;
+      margin: 0;
+      li {
+        list-style: none;
+        padding-right: 8px;
+      }
+      a {
+        height: 35px;
+        width: 35px;
+        background: #c7cdd2;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+      a:hover {
+        background: #e70033;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .leftSide {
+    border-right: 0 !important;
+    border-bottom: 4px solid #fff !important;
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mapHead {
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .rightSide {
+    h4 {
+      font-size: 23px;
+    }
+    p {
+      font-size: 16px;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
+  .contact {
+    .leftSide {
+      border-right: 4px solid #fff;
+      padding-right: 20px;
+      h4 {
+        font-size: 24px;
+      }
+      input {
+        font-size: 16px;
+      }
+      input::placeholder {
+        color: #e70033;
+      }
+      select {
+        font-size: 16px;
+      }
+      textarea {
+        font-size: 16px;
+      }
+      .submitBtn {
+        button {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

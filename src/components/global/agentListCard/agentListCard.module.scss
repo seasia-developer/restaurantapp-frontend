@@ -1,0 +1,99 @@
+.viewBox {
+  padding: 15px 28px;
+  box-shadow: 7px 0px 14px rgba(99, 98, 98, 0.22);
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  margin-top: 28px;
+
+  .headlisting {
+    color: #e70033;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .itsButton {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 7px;
+    background-color: #666;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 0;
+  }
+
+  .price {
+    a {
+      width: 100%;
+      padding: 15px 15px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .rate {
+      display: inline-block;
+      background: #30302c;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    .viewListing {
+      display: inline-block;
+      background: #e70033;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .cityLink {
+    margin-top: 35px;
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      font-style: italic;
+      color: #c7cdd2;
+    }
+  }
+  .property {
+    margin-top: 20px;
+    width: 100%;
+    background: none repeat scroll 0 0 #f8f8f8;
+    span {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 8px;
+      border-right: 1px solid #efefef;
+      display: block;
+      float: left;
+      text-align: center;
+      text-transform: uppercase;
+      width: 25%;
+      strong {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .inputContainer {
+    flex-direction: column;
+    align-items: flex-start !important;
+    font-size: 16px !important;
+  }
+  .title {
+    width: auto !important;
+    font-size: 18px !important;
+    text-align: start !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .continueBtn {
+    height: 55px !important;
+    padding: 0px 35px !important;
+    font-size: 24px !important;
+  }
+}

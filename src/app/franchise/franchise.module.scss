@@ -1,0 +1,307 @@
+.wsrFranchise {
+  background: url(../../assets/home-banner2.png);
+  background-size: cover;
+  margin-top: 139px;
+  background-position: center center;
+  h2 {
+    font-size: 60px;
+    word-wrap: break-word;
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: -15px;
+  }
+  .wsrFranchiseForm {
+    background: rgba(255, 255, 255, 0.6);
+    margin-top: 30px;
+    p {
+      font-weight: 600;
+      padding: 15px 0px;
+      font-size: 32px;
+      line-height: normal;
+    }
+    form {
+      input {
+        border-radius: 0px;
+        margin-bottom: 15px;
+      }
+      .submitBtn {
+        border-radius: 0;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: #e60231;
+        color: #fff;
+      }
+    }
+  }
+  .wsrFranchiseBottom {
+    background: rgba(255, 255, 255, 0.6);
+    p {
+      color: #e60231 !important;
+      font-weight: 700;
+      font-size: 24px;
+    }
+    a {
+      color: #e60231;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+}
+
+.wsrTransactions {
+  background: rgba(255, 255, 255, 0.6);
+  .transactionLogo {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background: #e70033;
+  }
+  .middlePrize{
+    color: #e70033;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+.whyUs {
+  background: url(../../assets/blackbg.jpg);
+  background-size: cover;
+  border-top: 28px solid #e70033;
+  padding: 48px 0px 68px;
+  .mainheading {
+    h2 {
+      font-size: 55px;
+      z-index: 2;
+      line-height: 55px;
+    }
+  }
+  .mainheading::after {
+    position: absolute;
+    content: "";
+    background: rgba(231, 0, 51, 0.46);
+    width: 400px;
+    height: 24px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+    z-index: 1;
+  }
+  .WhyUseDetail {
+    padding: 33px 0px 28px;
+    img {
+      top: -3px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      max-height: 40px;
+    }
+    h2 {
+      min-height: 79px;
+      padding: 0px 15px;
+      font-size: 24px;
+    }
+    .wsrBtn {
+      border-radius: 0;
+      border: none;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 8px 28px;
+      background: #fff;
+      text-transform: uppercase;
+      color: #e60231;
+    }
+  }
+  .WhyUseDetail:not(:last-child):after {
+    content: "";
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: 8px;
+    height: calc(100% - 33px);
+    top: 33px;
+    border-radius: 4px;
+  }
+}
+
+.wsrMission {
+  color: #000;
+  background: url(../../assets/mission-bg.jpg);
+  background-size: cover;
+  font-weight: 700;
+  .missionLeft {
+    box-shadow: 6px 0px 3px rgba(0, 0, 0, 0.19);
+    margin-top: -105px;
+    .wsrSubHead {
+      font-size: 38px;
+      line-height: 38px;
+    }
+    .wsrMainHead {
+      h2 {
+        font-size: 75px;
+        line-height: 80px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+  .missionRight {
+    h4 {
+      font-size: 26px;
+      line-height: 26px;
+      padding-left: 48px;
+    }
+    h2 {
+      font-size: 39px;
+      line-height: 44px;
+      padding-left: 48px;
+      font-weight: 700;
+    }
+    .exploadingquotes {
+      padding: 0px 31px 31px;
+      margin-bottom: 28px;
+      img{
+        width: 67px;
+        height: 43px;
+      }
+      p {
+        font-size: 26px;
+        font-weight: 500 !important;
+        text-align: center;
+      }
+      .quoteRight{
+        right: 0;
+        bottom: 0;
+        position: absolute;
+      }
+    }
+    .wsrBtnEbook{
+      border-radius: 0;
+      border: none;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 8px 28px;
+    }
+  }
+}
+
+.wsrConstRow{
+    h2{
+        font-size: 24px;
+    }
+    .wsrCostImg{
+        max-height: 107px;
+    }
+    a{
+    border-radius: 0;
+      border: none;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 8px 28px;
+      background: #fff;
+      text-transform: uppercase;
+      color: #e60231;
+      word-spacing: 5px;
+    }
+}
+
+.candidates{
+    background: rgba(255,255,255,0.6);
+    padding-bottom: 30px;
+    .wsrCandidateText{
+      color: #000;
+      font-size: 27px;
+      font-weight: bold;
+    }
+    .wsrCandidateSpoon{
+      margin-left: 25px;
+      img{
+        width: 38px;
+        height: 95px;
+      }
+    }
+    .CnadidateLeft{
+      box-shadow: 6px 0px 3px rgba(0,0,0,0.19);
+      margin-top: -35px;
+    }
+}
+
+@media (max-width: 991px){
+  .WhyUseDetail::after {
+    content: "";
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 4px !important;
+    top: auto !important;  
+  }
+  .whyUs{
+    .mainheading{
+      h2{
+        margin-bottom: 40px ;
+      }
+      
+    }
+    .wsrConstRow{
+     h2{
+      height: 35px;
+     }
+     .wsrCostImg{
+      margin-top: 2rem;
+    } 
+    }
+  }
+  .wsrMission{
+    .missionLeft {
+      margin-top: 11px;
+    }
+  }
+  .candidates{
+    padding-top: 34px;
+    .wsrCandidateText{
+      font-size: 18px;
+    }
+    .CnadidateLeft{
+      margin-top: 0px;
+    }
+  }
+}
+
+@media (max-width: 540px){
+  .wsrFranchise{
+    h2{
+      font-size: 34px;
+    }
+    .wsrFranchiseBottom{
+      p{
+        font-size: 18px;
+      }
+      a{
+        font-size: 18px;
+      }
+    }
+    .mainheading {
+      h2 {
+        font-size: 34px !important;
+        z-index: 2;
+        line-height: 55px;
+
+      }
+    }
+  }
+  .wsrMission{
+    .missionLeft{
+      .wsrSubHead {
+        font-size: 32px;
+        line-height: 30px;
+      }
+    }
+  }
+  .missionRight {
+    h2 {
+      font-size: 25px !important;
+      padding-right: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.wsSearchCardShow_pagination {
+  display: flex;
+  margin: 4rem 0 2rem 0;
+  justify-content: space-between;
+  align-items: center;
+  color: #666;
+  font-size: 13px;
+  padding-right: 3.5rem;
+
+  .current_page{
+    background-color: var(--red-color);
+    color: #fff;
+    border: 0 !important;
+  }
+
+  .wsSearchCardShow_pagination_right {
+    ul {
+      li {
+        padding: 5px 10px;
+        font-size: 1rem;
+        border: 1px solid #999;
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--red-color);
+          color: #fff;
+        }
+      }
+    }
+  }
+}

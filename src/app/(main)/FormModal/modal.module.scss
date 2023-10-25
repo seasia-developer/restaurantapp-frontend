@@ -1,0 +1,38 @@
+.modalMain{
+    // position: fixed;
+    z-index: 9999999;
+    div{
+        border-radius: 0px;
+    }
+    .modalHeader{
+        border: none;
+        top: -17px;
+        position: absolute;
+        left: 501px;
+        background: red;
+        border-radius: 50%;   
+        button{
+            left: 3px;
+            position: absolute;
+            font-size: 11px;    
+        }
+    }
+    input,select{
+        background: #f5f8fa;
+        border-radius: 0px;
+    }
+    span{
+        color: red;
+    }
+    .modalFooter{
+        border: none;
+        padding-bottom: 0px;
+        button{
+            background: #ff0000;
+            border-color: #ff0000;
+            border-radius: 0px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}

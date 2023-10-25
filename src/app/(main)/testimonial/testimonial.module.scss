@@ -1,0 +1,137 @@
+.restaurantSold {
+  background: rgba(255, 255, 255, 0.6);
+  .line {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    li {
+      &:first-child {
+        margin-top: 106px;
+      }
+      .redBadge {
+        border-radius: 50%;
+        height: 50px;
+        left: 50%;
+        margin-left: -24px;
+        position: absolute;
+        top: 20px;
+        width: 50px;
+        background: #e70033;
+        z-index: 0;
+        margin-top: -20px;
+      }
+    }
+    .linePanel {
+      padding: 10px 20px 20px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+      float: left;
+      padding: 10px 20px 20px;
+      position: relative;
+      .linePanelBody {
+        position: relative;
+        width: 100%;
+          .soldImg {
+            embed {
+              width: 100%;
+            }
+          .soldImg {
+            width: 130px;
+            float: left;
+          }
+          .soldParagraph {
+            display: grid;
+            padding-left: 10px;
+            p {
+              font-size: 13px;
+              line-height: 20px;
+              margin: 0 0 15px;
+              word-break: break-word;
+              display: flex;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+      .linePanelBody::after {
+        border-color: transparent #fff;
+        border-style: solid;
+        border-width: 9px 0 9px 9px;
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        right: -9px;
+        top: 30px;
+      }
+    }
+    .linePanel::before{
+      border-color: transparent #eceae4;
+      border-style: solid;
+      border-width: 10px 0 10px 10px;
+      content: " ";
+      display: inline-block;
+      position: absolute;
+      right: -10px;
+      top: 29px;
+    }
+  }
+  .line::before {
+    content: " ";
+    width: 8px;
+    background: #ccc;
+    border-radius: 4px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1.5px;
+    position: absolute;
+    top: 0;
+  }
+  .actionButton{
+    width: 100%;
+    // float: left;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 0;
+    button{
+    background: #e70033 !important;
+    color: #fff;
+    padding: 6px 5px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    vertical-align: middle;
+    border: none !important;
+  }
+  .backBtn{
+    margin: 0px 15px 0px 0px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .nextBtn{
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  }
+}
+
+@media (max-width: 992px) {
+  .line {
+    li {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+    .redBadge {
+      display: none;
+    }
+  }
+  .line::before {
+    content: none !important;
+  }
+    .soldImg {
+      margin: 0 auto;
+    }
+  
+}
+

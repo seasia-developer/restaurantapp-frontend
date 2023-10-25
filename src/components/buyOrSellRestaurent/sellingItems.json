@@ -1,0 +1,77 @@
+{
+    "items": [
+      {
+        "name": "Seller's Checklist",
+        "image": "https://www.wesellrestaurants.com/public/images/seller%20checklist.png",
+        "label": "BUYERS",
+        "price": 10.99
+      },
+      {
+        "name": "Restaurant Business Plan",
+        "image": "https://www.wesellrestaurants.com/public/images/Restaurant%20Business%20Plan%20Template.png",
+        "label": "SELLERS",
+        "price": 15.99
+      },
+      {
+        "name": "Restaurant Cost Calculator",
+        "image": "https://www.wesellrestaurants.com/public/images/restaurant_cost_calculator.png",
+        "label": "BUYERS",
+        "price": 8.99
+      },
+      {
+        "name": "Valuation Methods",
+        "image": "https://www.wesellrestaurants.com/public/images/Valuation%20Methods.png",
+        "label": "SELLERS",
+        "price": 12.99
+      },
+      {
+        "name": "Break Even Book",
+        "image": "https://www.wesellrestaurants.com/public/images/Break%20Even%20Book.png",
+        "label": "BUYERS",
+        "price": 9.99
+      },
+      {
+        "name": "Guide to Selling",
+        "image": "https://www.wesellrestaurants.com/public/images/Vital_Playbook_for_Selling.png",
+        "label": "SELLERS",
+        "price": 8.99
+      },
+      {
+        "name": "Seller's Checklist",
+        "image": "https://www.wesellrestaurants.com/public/uploads/images/62874-image.jpg",
+        "label": "BUYERS",
+        "price": 12.99
+      },
+      {
+        "name": "Restaurant Business Plan",
+        "image": "https://www.wesellrestaurants.com/public/uploads/images/62874-image.jpg",
+        "label": "SELLERS",
+        "price": 9.99
+      },
+      {
+        "name": "Restaurant Cost Calculator",
+        "image": "https://www.wesellrestaurants.com/public/images/Break%20Even%20Book.png",
+        "label": "SELLERS",
+        "price": 9.99
+      },
+      {
+        "name": "Valuation Methods",
+        "image": "https://www.wesellrestaurants.com/public/images/Vital_Playbook_for_Selling.png",
+        "label": "BUYERS",
+        "price": 8.99
+      },
+      {
+        "name": "Break Even Book",
+        "image": "https://www.wesellrestaurants.com/public/uploads/images/62874-image.jpg",
+        "label": "SELLERS",
+        "price": 12.99
+      },
+      {
+        "name": "Guide to Selling",
+        "image": "https://www.wesellrestaurants.com/public/uploads/images/62874-image.jpg",
+        "label": "BUYERS",
+        "price": 9.99
+      }
+    ]
+  }
+  

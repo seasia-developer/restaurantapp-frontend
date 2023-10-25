@@ -1,0 +1,76 @@
+#aboutWSR {
+  h2,
+  h3 {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .aboutWSR {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 3rem -3rem;
+    box-shadow: 0 0 2em -0.9em #000000;
+
+    .aboutWSR_top {
+      h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #000;
+        line-height: 48px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .aboutWSR_bottom {
+      gap: 1rem;
+
+      h3 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #333333;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #666666;
+      }
+
+      > div {
+        width: 50%;
+      }
+
+      .whyChooseUs {
+        h3 {
+          color: var(--red-color);
+        }
+
+        .accordion-header:active {
+          color: red !important; // Change the color to red when active
+        }
+
+        .accordion-button:not(.collapsed) {
+          color: red !important;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1090px) {
+    .aboutWSR {
+      margin: 3rem -3rem;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .aboutWSR {
+      margin: 3rem -1rem;
+      .aboutWSR_bottom {
+        flex-direction: column;
+
+        > div {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

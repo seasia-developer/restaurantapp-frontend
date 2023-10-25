@@ -1,0 +1,52 @@
+.radioLibraryCards {
+  margin-bottom: 3rem;
+  .radioLibraryCards_left {
+    .rld_img_wrapper {
+      text-align: center;
+      border: 1px solid #999;
+      padding: 5px;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .rld_img {
+        width: 150px;
+        img {
+          border: 1px solid #999;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .radioLibraryCards_right {
+    h5 {
+      font-size: 16px;
+      line-height: 28px;
+      color: var(--red-color);
+      font-weight: 700;
+    }
+    p {
+      font-size: 16px;
+      line-height: 28px;
+      color: var(--para-color);
+
+      a {
+        color: var(--red-color);
+        padding-left: 1rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+
+    .radioLibraryCards_left {
+      .rld_img_wrapper {
+        width: 162px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

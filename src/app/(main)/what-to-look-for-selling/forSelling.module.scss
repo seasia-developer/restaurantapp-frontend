@@ -1,0 +1,149 @@
+.restaurantsMain {
+    background: rgba(255, 255, 255, 0.6);
+    .sectionBg {
+      background: #fff;
+      padding: 28px;
+      box-shadow: 0 0 2em -0.9em #000000;
+      h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #000;
+      }
+      .leftSide {
+        p
+         {
+          color: #666666;
+          font-size: 16px;
+          line-height: 28px;
+        }
+        a{
+            color: #666666;
+            font-size: 16px;
+            line-height: 28px;
+            text-decoration: underline !important;      
+        }
+      }
+      .rightSide {
+        h3 {
+          color: #e70033;
+          font-weight: 600;
+          font-size: 24px;
+        }
+        .accordionBox{
+            margin-bottom: 1rem;
+            button:hover{
+                background-color: #e70033;
+                color: #fff;
+                border: none;
+              }
+              button:focus{
+                background-color: #e70033;
+                color: #fff;
+                border: none !important;
+              }
+              button:target{
+                background-color: #e70033;
+                color: #fff;
+                border: none !important;
+              }
+              button{
+                border: none;
+              }
+        }
+      }
+    }
+  }
+  
+  .buyingOrder{
+    background: url(../../../assets/buying-girl.png);
+    background-size: cover;
+    padding: 40px 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    h2{
+      font-weight: bold;
+      color: #fff;
+      font-size: 35px;
+      text-align: center;
+    }
+    p{
+      color: #fff;
+      font-size: 36px;
+      font-style: italic;
+      text-align: center;
+    }
+    .orderBtn{
+      width: 100%;
+      text-align: center;
+      a{
+        background: #e70033;
+        height: auto;
+        line-height: normal;
+        padding: 11px 28px;
+        border: none;
+        box-shadow: none;
+        font-size: 20px;
+        border-radius: 0;
+        color: #fff;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 0;
+        display: block;
+        width: auto;
+        margin: 0 auto;
+        text-transform: uppercase;
+        margin-top: 28px;
+        display: inline-block;
+      }
+    }
+    a{
+        color: #fff;
+        font-size: 24px;
+        display: block;
+        text-decoration: none;
+        margin: 0 auto;
+        max-width: 235px;
+        margin-top: 15px;
+    }
+    .orderPrice{
+      position: absolute;
+      bottom: 0px;
+      width: 240px;
+      right: 15px;
+      height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: #fff;
+      border-radius: 30px 30px 0px 0px;
+      color: #e70033;
+      font-size: 33px;
+      font-weight: bold;
+    }
+  }
+  
+  .sectionFaq{
+    background: rgba(255,255,255,0.6);
+    .faqBg{
+      background: #fff;
+      padding: 28px;
+      box-shadow: 0 0 2em -0.9em #000000;
+    }
+    .faqBg{
+      button:hover{
+        background-color: #e70033;
+        color: #fff;
+        border: none;
+      }
+      button:focus{
+        background-color: #e70033;
+        color: #fff;
+        border: none !important;
+      }
+      button{
+        border: none;
+      }
+    }
+  }

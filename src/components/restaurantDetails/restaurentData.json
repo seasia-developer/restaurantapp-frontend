@@ -1,0 +1,105 @@
+{
+  "data": {
+    "heading": "Welcome to My Website",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla diam vitae ipsum facilisis ultrices. Nullam euismod velit nec nulla elementum, vitae ultricies mauris rhoncus. Phasellus ultrices ligula eget dui tincidunt, at blandit mauris fringilla. Suspendisse eget metus orci. Sed efficitur finibus nunc eu suscipit. Cras posuere velit ut nisi feugiat tristique. Proin sagittis libero id aliquam tincidunt.",
+    "paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla diam vitae ipsum facilisis ultrices. Nullam euismod velit nec nulla elementum, vitae ultricies mauris rhoncus. Phasellus ultrices ligula eget dui tincidunt, at blandit mauris fringilla. Suspendisse eget metus orci. Sed efficitur finibus nunc eu suscipit. Cras posuere velit ut nisi feugiat tristique. Proin sagittis libero id aliquam tincidunt.",
+    "listing": [
+      { "title": "Google" },
+      { "title": "Facebook" },
+      { "title": "Twitter" }
+    ],
+    "links": [
+      { "title": "Alabama Restaurant & Hospitality Association ", "url": "https://www.google.com" },
+      { "title": "Alabama Alcoholic Beverage Control Board", "url": "https://www.facebook.com" },
+      { "title": "Restaurant Equipment and Supplies", "url": "https://www.twitter.com" }
+    ],
+    "anotherHeading": "Featured Cards",
+    "cards": [
+      {
+        "image": "https://www.wesellrestaurants.com/scripts/timthumb.php?src=https://www.wesellrestaurants.com/public/uploads/images/_2022-08-10_12_58_pizza-g2161cc7f5_1920.jpg&h=152&w=226&zc=0",
+        "location": "Talledega, Alabama",
+        "paragraph": "Vestibulum ante ipsum primis in faucibus orci sed metus eu risus facilisis posuere.",
+        "buttons1": [
+          { "label": "$2500", "url": "https://example.com/learn-more" }
+        ],
+        "buttons2": [
+          {
+            "label": "View Complete Listing",
+            "url": "https://example.com/learn-more"
+          }
+        ]
+      },
+      {
+        "image": "https://www.wesellrestaurants.com/scripts/timthumb.php?src=https://www.wesellrestaurants.com/public/uploads/images/_2022-08-10_12_58_pizza-g2161cc7f5_1920.jpg&h=152&w=226&zc=0",
+        "location": "Talledega, Alabama",
+        "paragraph": "Vestibulum ante ipsum primis in faucibus orci sed metus eu risus facilisis posuere.",
+        "buttons1": [
+          { "label": "$2500", "url": "https://example.com/learn-more" }
+        ],
+        "buttons2": [
+          {
+            "label": "View Complete Listing",
+            "url": "https://example.com/learn-more"
+          }
+        ]
+      },
+      {
+        "image": "https://www.wesellrestaurants.com/scripts/timthumb.php?src=https://www.wesellrestaurants.com/public/uploads/images/_2022-08-10_12_58_pizza-g2161cc7f5_1920.jpg&h=152&w=226&zc=0",
+        "location": "Talledega, Alabama",
+        "paragraph": "Vestibulum ante ipsum primis in faucibus orci sed metus eu risus facilisis posuere.",
+        "buttons1": [
+          { "label": "$2500", "url": "https://example.com/learn-more" }
+        ],
+        "buttons2": [
+          {
+            "label": "View Complete Listing",
+            "url": "https://example.com/learn-more"
+          }
+        ]
+      },
+      {
+        "image": "https://www.wesellrestaurants.com/scripts/timthumb.php?src=https://www.wesellrestaurants.com/public/uploads/images/_2022-08-10_12_58_pizza-g2161cc7f5_1920.jpg&h=152&w=226&zc=0",
+        "location": "Talledega, Alabama",
+        "paragraph": "Vestibulum ante ipsum primis in faucibus orci sed metus eu risus facilisis posuere.",
+        "buttons1": [
+          { "label": "$2500", "url": "https://example.com/learn-more" }
+        ],
+        "buttons2": [
+          {
+            "label": "View Complete Listing",
+            "url": "https://example.com/learn-more"
+          }
+        ]
+      },
+      {
+        "image": "https://www.wesellrestaurants.com/scripts/timthumb.php?src=https://www.wesellrestaurants.com/public/uploads/images/_2022-08-10_12_58_pizza-g2161cc7f5_1920.jpg&h=152&w=226&zc=0",
+        "location": "Talledega, Alabama",
+        "paragraph": "Vestibulum ante ipsum primis in faucibus orci sed metus eu risus facilisis posuere.",
+        "buttons1": [
+          { "label": "$2500", "url": "https://example.com/learn-more" }
+        ],
+        "buttons2": [
+          {
+            "label": "View Complete Listing",
+            "url": "https://example.com/learn-more"
+          }
+        ]
+      },
+
+      {
+        "image": "https://www.wesellrestaurants.com/scripts/timthumb.php?src=https://www.wesellrestaurants.com/public/uploads/images/_2022-08-10_12_58_pizza-g2161cc7f5_1920.jpg&h=152&w=226&zc=0",
+        "location": "Talledega, Alabama",
+        "paragraph": "Maecenas ac justo felis. Ut semper elit velue metus dignissim vel. Sed rhoncus leo eu nulla lacinia, in tincidunt justo sagittis.",
+        "buttons1": [
+          { "label": "$2500", "url": "https://example.com/learn-more" }
+        ],
+        "buttons2": [
+          {
+            "label": "View Complete Listing",
+            "url": "https://example.com/learn-more"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+.PrivacyPolicy {
+  padding: 60px 0px;
+  background: rgba(255, 255, 255, 0.6);
+  .PrivacyPolicyInner {
+    background: #fff;
+    padding: 28px;
+    box-shadow: 0 0 2em -0.9em #000000;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+      color: #000;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
+    .PolicyContent {
+      text-align: left;
+    }
+    .txt {
+      p {
+        line-height: 28px;
+        font-size: 16px;
+        color: #000;
+        a{
+            color: #000;
+            text-decoration: underline !important;
+        }
+      }
+      .redTxt {
+        color: #e70033 !important;
+      }
+    }
+  }
+  ul {
+      padding: 0px 0px 0px 18px;
+    li {
+      font-size: 16px;
+      list-style-type: disc;
+      line-height: 26px;
+      color: #000;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+  }
+}

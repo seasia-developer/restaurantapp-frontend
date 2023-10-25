@@ -1,0 +1,31 @@
+.aboutWSR {
+  .accordion-item {
+    border: none;
+    margin-bottom: 1rem;
+  }
+
+  .accordion-button {
+    background-color: #f8f8f8;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: red !important;
+    color: white;
+    border-radius: 0;
+    &::after {
+      color: white;
+    }
+  }
+
+  .accordion-body {
+    color: #666;
+    border: 1px solid #cecece;
+    border-top: 0;
+  }
+}
+
+// .accordion{
+//   --bs-accordion-btn-icon:
+// }

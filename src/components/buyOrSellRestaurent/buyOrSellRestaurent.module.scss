@@ -1,0 +1,77 @@
+.featureSection {
+  // display: flex;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.4);
+  align-items: center;
+  justify-content: center;
+  .featureHead {
+    padding: 35px 35px;
+    .container {
+      .carouselHeading {
+        display: block !important;
+        margin: 0 !important;
+        text-align: center !important;
+        font-size: 28px;
+        font-weight: 500 !important;
+        padding: 15px;
+        color: #e70033;
+      }
+      .carouselInfo {
+        color: #fff;
+      }
+      .carouselImg {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .SearchSvg:hover {
+        opacity: 1;
+        z-index: 10;
+      }
+    }
+  }
+}
+
+.CardMain {
+  margin: 0 auto;
+  border: none !important;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px !important;
+  margin-bottom: 2rem;
+  border-radius: 0 !important;
+}
+.CardBody{
+  padding: 0px 0px 0px 11px !important;
+}
+.cardTItle {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  margin: 0 !important;
+  padding: 0px;
+}
+.CardBtn {
+  font-size: 13px;
+  font-style: italic;
+  padding: 0px;
+  margin: 0;
+  color: #e70033;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span:last-child{
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+.label{
+  border-radius: 8px;
+    background-color: darkgray;
+    padding: 4px 8px;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0px 0px 4px -2px;
+}

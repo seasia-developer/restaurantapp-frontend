@@ -1,0 +1,101 @@
+.articleCard {
+  > div:not(.articleCardItems_img) {
+    padding: 0rem 1rem;
+  }
+
+  box-shadow: 0 0 2em -0.9em #000000;
+  min-height: 571px;
+
+  .articleCardItems_img {
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+  .articleFilterSec_img_overlay {
+    position: absolute;
+    opacity: 0;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      color: #fff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.5;
+      transition: opacity 0.3s ease;
+
+      svg {
+        font-size: 35px;
+        position: absolute;
+        top: 40%;
+        left: 45%;
+      }
+    }
+  }
+
+  .articleCardItems_desc {
+    display: inline-block;
+    margin-top: 1rem;
+    width: 100%;
+    text-transform: capitalize;
+    min-height: 79px;
+    white-space: normal;
+    word-break: break-word;
+    color: var(--red-color);
+  }
+
+  .articleCardItems_loca {
+    text-decoration: none;
+    color: var(--para-color);
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .articleCardItems_price {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem !important;
+    padding-bottom: 1.5rem !important;
+    button {
+      border: none;
+      width: 55%;
+      padding: 12px;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      background-color: var(--red-color);
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .articleCardItems_img {
+      img {
+        height: 50vw;
+      }
+    }
+
+    .articleFilterSec_img_overlay {
+      height: 50vw;
+    }
+
+    .articleCardItems_price {
+      button {
+        width: 170px;
+      }
+    }
+  }
+}

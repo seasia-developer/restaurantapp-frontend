@@ -1,0 +1,139 @@
+.brokerMain {
+  padding: 60px 0px;
+  background: rgba(255, 255, 255, 0.6);
+  .brokerBg {
+    box-shadow: 0 0 2em -0.9em #000000;
+    background: #fff;
+    padding: 28px;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+      color: #000;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
+    .listingRow {
+      ul {
+        background: none repeat scroll 0 0 #ffffff;
+        border: 1px solid #eee;
+        margin-bottom: 0px;
+        padding: 10px;
+        transition: all 0.3s ease 0.1s;
+        .agentHdr {
+          padding: 5px 10px !important;
+          background-color: #e80033;
+          font-size: 18px;
+          color: #ffffff;
+          width: 100%;
+          float: left;
+          margin-bottom: 10px;
+        }
+        .restaurentTxt {
+          font-size: 16px;
+          line-height: 28px;
+          padding-left: 2px !important;
+          color: #5e5e5e;
+          font-weight: 700;
+          width: 50%;
+          float: left;
+          .agentImg {
+            width: 130px;
+            float: left;
+            margin-right: 18px;
+            img {
+              width: 100%;
+            }
+          }
+          .agentImg_txt {
+            margin-left: 10px;
+            padding-left: 10px;
+            line-height: normal;
+            a {
+              color: #5e5e5e;
+              text-decoration: underline !important;
+            }
+            a:hover {
+              color: #e70033;
+              text-decoration: none !important;
+            }
+          }
+        }
+      }
+    }
+    .contactForm {
+      h2 {
+        font-size: 28px;
+        color: #000;
+        text-align: center;
+        font-weight: 400;
+        line-height: 1.5em;
+        margin: 0 0 15px;
+      }
+      .imgArrow {
+        display: block;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 2rem;
+      }
+      form {
+        margin: auto;
+        margin-top: 20px;
+        flex-direction: column;
+        .inputContainer {
+          padding: 0;
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          flex-wrap: wrap;
+        }
+        .title {
+          width: 35%;
+          font-size: 22px;
+          color: #000;
+          font-weight: bold;
+          line-height: 28px !important;
+          padding: 0 15px 0 0 !important;
+          margin: 0;
+          float: none;
+          text-align: right;
+        }
+        .field {
+          float: left;
+          width: 65%;
+          display: flex;
+
+          input {
+            background: rgba(199, 205, 210, 0.18);
+            color: #555555 !important;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 0px 15px !important;
+            padding: 0px 8px;
+            height: 55px;
+            line-height: 55px;
+            color: #000;
+            font-size: 18px;
+            border: none;
+            border-radius: 0px;
+            box-shadow: none;
+
+            &:focus {
+              outline: none;
+            }
+          }
+          button {
+            background: #e70033;
+            height: 55px;
+            line-height: 55px;
+            padding: 0px 55px;
+            font-size: 28px;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 0px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+.restaurantSold {
+  background: rgba(255, 255, 255, 0.6);
+  .head {
+    background: #fff;
+    padding: 15px 0px;
+    margin-bottom: 40px;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+      color: #000;
+      line-height: 48px;
+    }
+  }
+  .line {
+    // float: left;
+    width: 100%;
+    margin-top: -60px;
+    padding: 0;
+    position: relative;
+    li {
+      background: #fff;
+      box-shadow: 6px 0px 13px rgb(99 98 98 / 22%);
+      min-height: 340px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+
+      &:first-child {
+        margin-top: 106px;
+      }
+      .redBadge {
+        border-radius: 50%;
+        height: 50px;
+        left: 50%;
+        margin-left: -24px;
+        position: absolute;
+        top: 20px;
+        width: 50px;
+        background: #e70033;
+        z-index: 0;
+        margin-top: -20px;
+      }
+    }
+    .linePanel {
+      padding: 10px 20px 20px;
+      .linePanelBody {
+        position: relative;
+        .soldOverlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0px;
+          text-align: center;
+          top: -15px;
+          z-index: 5;
+          background: transparent;
+          a {
+            cursor: pointer;
+          }
+        }
+        .soldRest {
+          width: 100%;
+          float: left;
+          font-size: 13px;
+          color: #666666;
+          position: relative;
+          .soldImg {
+            img {
+              width: 130px;
+              height: 90px;
+            }
+          }
+          h4 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: #e70033;
+            margin: 0 0 5px;
+          }
+          .soldImg {
+            width: 130px;
+            float: left;
+          }
+          .soldParagraph {
+            display: grid;
+            padding-left: 10px;
+            .bdetailedad {
+              // white-space: nowrap; 
+              white-space: normal;
+              max-width: 100%; 
+              text-overflow: ellipsis;
+              height: 120px;
+              overflow: hidden;
+            }
+            a {
+              font-size: 16px;
+              line-height: 28px;
+              color: #e70033;
+              text-decoration: none;
+              display: inline-block;
+              position: relative;
+              z-index: 3;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+  .line::before {
+    content: " ";
+    width: 8px;
+    background: #ccc;
+    border-radius: 4px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1.5px;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .line {
+    li {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+    .redBadge {
+      display: none;
+    }
+  }
+  .line::before {
+    content: none !important;
+  }
+  .soldRest {
+    display: flex;
+    flex-direction: column;
+    .soldImg {
+      margin: 0 auto;
+    }
+  }
+  .soldOverlay {
+    top: 25px !important;
+    img {
+      width: 65%;
+      height: auto;
+    }
+  }
+}

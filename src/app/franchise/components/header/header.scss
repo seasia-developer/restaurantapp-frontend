@@ -1,0 +1,158 @@
+.Header {
+  font-family: "Open Sans", sans-serif;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+
+  #btn-in-low-head {
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    width: 11rem;
+    padding: 0.5rem;
+
+    &:hover {
+      background-color: white;
+      color: var(--red-color);
+    }
+  }
+
+  #collasible-nav-dropdown {
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 0;
+    // width: 11rem;
+    text-align: center;
+    color: black;
+
+    &:hover {
+      background-color: var(--red-color);
+      color: white;
+    }
+  }
+
+  .nav-item.dropdown {
+    flex-basis: 11rem;
+  }
+
+  .dropdown-menu.show {
+    max-width: 11rem;
+    border-radius: 0;
+    padding: 0;
+    margin-top: -2px !important;
+    border-top: 2px solid var(--red-color);
+    text-align: center;
+
+    box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
+
+    .dropdown-item {
+      border-bottom: 1px solid black;
+
+      &:hover {
+        background-color: var(--red-color);
+        color: white;
+      }
+    }
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  img.img-responsive {
+    max-height: 90px;
+  }
+
+  @media only screen and (max-width: 991px) {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+
+    img.img-responsive {
+      max-height: 40px;
+    }
+
+    .nav-item.dropdown {
+      flex-basis: auto;
+    }
+
+    #btn-in-low-head {
+      background-color: inherit;
+      color: #000000;
+      font-size: 14px;
+      text-align: left;
+      padding-left: 15px;
+
+      &:hover {
+        background-color: inherit;
+        color: #000000;
+        font-size: 14px;
+        text-align: left;
+        padding-left: 15px;
+      }
+    }
+
+    .navbar-collapse {
+      position: fixed;
+      top: 54px;
+      right: 0;
+      z-index: 999;
+      width: 100%;
+      height: 100%;
+      transition: left 0.3s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+      left: 0;
+    }
+
+    #collasible-nav-dropdown {
+      width: 100vw;
+      
+      background-color: #e3e3e3;
+    }
+
+    a#collasible-nav-dropdown {
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--grey-nav);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-items: center;
+
+      &:hover {
+        background-color: var(--grey-nav);
+        color: #000000;
+      }
+    }
+
+    .dropdown-menu.show {
+      max-width: 100vw;
+      width: 100vw !important;
+      border: 0;
+      padding: 1rem;
+      padding-top: 0.3rem;
+      text-align: left;
+      background-color: var(--grey-nav);
+      box-shadow: none;
+
+      .dropdown-item {
+        border-bottom: 0;
+        font-weight: 550;
+        background-color: white;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+
+    .dropdown-toggle::after {
+      display: inline-block;
+    }
+  }
+}

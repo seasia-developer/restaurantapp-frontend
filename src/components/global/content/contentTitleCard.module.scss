@@ -1,0 +1,20 @@
+.contentTitleCard{
+    padding: 2rem 0;
+    border-bottom: 1px solid #999;
+
+    p{
+        font-size: 18px;
+        line-height: 30px;
+        color: #000;
+        margin-bottom: 5px;
+    }
+
+    a{
+        color: #999;
+        font-size: 14px;
+
+        &:hover{
+            color: var(--red-color);
+        }
+    }
+}
