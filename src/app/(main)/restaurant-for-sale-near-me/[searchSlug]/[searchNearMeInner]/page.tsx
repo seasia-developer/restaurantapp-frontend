@@ -256,3 +256,4 @@ const SeachResult = () => {
 };
 
 export default SeachResult;
+ 

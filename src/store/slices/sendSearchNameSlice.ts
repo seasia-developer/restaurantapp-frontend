@@ -11,3 +11,4 @@ const sendSearchNameSlice = createSlice({
 export const { setSendSearchName } = sendSearchNameSlice.actions;
 
 export default sendSearchNameSlice.reducer;
+ 

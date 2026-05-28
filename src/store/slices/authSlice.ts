@@ -20,3 +20,4 @@ const dataSlice = createSlice({
 export const { setEmailAndPass } = dataSlice.actions;
 
 export default dataSlice.reducer;
+ 

@@ -11,3 +11,4 @@ const agentListIdSlice = createSlice({
 export const { getAgentListId } = agentListIdSlice.actions;
 
 export default agentListIdSlice.reducer;
+ 

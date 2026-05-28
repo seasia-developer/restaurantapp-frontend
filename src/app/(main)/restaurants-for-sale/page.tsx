@@ -4,3 +4,4 @@ import WeSellRestaurantsPress from "@/components/restaurantDetails/WeSellRestaur
 export default function Test() {
   return <WeSellRestaurantsPress />
 }
+ 

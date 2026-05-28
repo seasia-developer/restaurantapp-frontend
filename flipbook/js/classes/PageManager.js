@@ -488,3 +488,4 @@ export default class PageManager {
     this.getOrLoadTextureObject(material, n);
   }
 }
+ 

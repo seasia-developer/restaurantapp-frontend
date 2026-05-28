@@ -2,4 +2,4 @@ import FeatureInside from "@/components/restaurantDetails/featureInside/FeatureI
 
 export default function Page({ params }: { params: { slug: string } }) {
     return <FeatureInside />
-  }
+  } 

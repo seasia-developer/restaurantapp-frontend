@@ -1341,3 +1341,4 @@ export default class Book extends THREE.EventDispatcher {
   };
 
 }
+ 

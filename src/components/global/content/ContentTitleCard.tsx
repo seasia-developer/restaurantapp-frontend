@@ -29,4 +29,4 @@ const ContentTitleCard:React.FC<ContentTitleCardProps> = ({blog_title, blog_url}
   )
 }
 
-export default ContentTitleCard
+export default ContentTitleCard 

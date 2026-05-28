@@ -12,3 +12,4 @@ export default function Toastify(x: any, toastifyType: any = "info") {
     progress: 0,
   });
 }
+ 

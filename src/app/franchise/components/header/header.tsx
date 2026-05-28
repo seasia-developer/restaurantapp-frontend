@@ -208,3 +208,4 @@ const FranchiseHeader = () => {
 };
 
 export default FranchiseHeader;
+ 

@@ -9,4 +9,4 @@ const headerSlugSlice = createSlice({
 })
 
 export const { setHeaderSlugSlice } = headerSlugSlice.actions;
-export default headerSlugSlice.reducer;
+export default headerSlugSlice.reducer; 

@@ -94,4 +94,4 @@ export const AgreementApi = createApi({
   }),
 });
 
-export const { useConfirmQuery, useViewMutation, useThankyousellerpageMutation, useAccountHomeQuery, useFlipBookQuery, useRequestInfoMutation, useEmailBrokerMutation, useAccountUpdateMutation } = AgreementApi;
+export const { useConfirmQuery, useViewMutation, useThankyousellerpageMutation, useAccountHomeQuery, useFlipBookQuery, useRequestInfoMutation, useEmailBrokerMutation, useAccountUpdateMutation } = AgreementApi; 

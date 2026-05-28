@@ -203,3 +203,4 @@ export default class BookPrinter extends THREE.EventDispatcher {
   }
 
 }
+ 

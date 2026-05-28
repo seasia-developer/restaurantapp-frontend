@@ -48,3 +48,4 @@ export default class Cover extends SheetBlock {
     };
   }
 }
+ 

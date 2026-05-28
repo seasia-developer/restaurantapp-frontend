@@ -364,3 +364,4 @@ const ForFranchisor = () => {
 };
 
 export default ForFranchisor;
+ 

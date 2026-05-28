@@ -17,3 +17,4 @@ export function getDataFromLocalStorage(key: any) {
     return null;
   }
 }
+ 

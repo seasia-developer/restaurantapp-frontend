@@ -144,3 +144,4 @@ export default class TocController extends WidgetController {
   }
 
 }
+ 

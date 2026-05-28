@@ -18,3 +18,4 @@ export {
   _PDFJS as PDFJS,
   _tr as tr
 };
+ 

@@ -36,4 +36,4 @@ export const searchOptions = createApi({
     })
 });
 
-export const { useGetStatesQuery, useGetListingCategoriesQuery, useGetFilterOptionsQuery, useGetFeaturedListingQuery, useGetRecentySoldQuery, useGetLatestQuery, useGetListingSoldQuery, useGetCustomerStoriesQuery, useGetAgentOfficeQuery } = searchOptions;
+export const { useGetStatesQuery, useGetListingCategoriesQuery, useGetFilterOptionsQuery, useGetFeaturedListingQuery, useGetRecentySoldQuery, useGetLatestQuery, useGetListingSoldQuery, useGetCustomerStoriesQuery, useGetAgentOfficeQuery } = searchOptions; 

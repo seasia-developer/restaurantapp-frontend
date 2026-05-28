@@ -82,3 +82,4 @@ const Pagination = ({ pagination }: any) => {
 };
 
 export default Pagination;
+ 

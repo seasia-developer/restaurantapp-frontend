@@ -9,4 +9,4 @@ const selectedPageSlice = createSlice({
 })
 
 export const { setSeletedPage } = selectedPageSlice.actions;
-export default selectedPageSlice.reducer;
+export default selectedPageSlice.reducer; 

@@ -25,3 +25,4 @@ const ContentCard = ({ data, heading, blogGuide, blogChecklist }:any) => {
 };
 
 export default ContentCard;
+ 

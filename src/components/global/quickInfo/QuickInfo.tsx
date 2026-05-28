@@ -32,3 +32,4 @@ const QuickInfo = ({ infoData, heading }:any) => {
 };
 
 export default QuickInfo;
+ 

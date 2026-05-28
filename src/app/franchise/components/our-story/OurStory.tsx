@@ -272,3 +272,4 @@ export default function OurStory() {
     </div>
   );
 }
+ 

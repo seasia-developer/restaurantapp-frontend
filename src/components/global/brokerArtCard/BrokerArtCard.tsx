@@ -19,3 +19,4 @@ const BrokerArtCard = ({data}:any) => {
 };
 
 export default BrokerArtCard;
+ 

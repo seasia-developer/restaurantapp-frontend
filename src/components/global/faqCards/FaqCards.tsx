@@ -19,3 +19,4 @@ const FaqCards = ({faqData}:any) => {
 };
 
 export default FaqCards;
+ 

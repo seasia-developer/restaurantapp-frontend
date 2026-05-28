@@ -15,3 +15,4 @@ const searchFilterSlice = createSlice({
 export const { setSearchFilterData } = searchFilterSlice.actions
 
 export default searchFilterSlice.reducer;
+ 
